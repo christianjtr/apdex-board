@@ -41,6 +41,9 @@ To build the project run this command:
 ```sh
 $ npm run build:dev
 ```
+### Comments
+
+First off, It is just a test, so I tried to implement a kind of pseudo-solution by using web components.
 
 ### Technologies
 
