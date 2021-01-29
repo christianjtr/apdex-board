@@ -36,10 +36,11 @@ http://localhost:8080
 
 ### Build
 
-To build the project run this command:
+To build the project run this command (Development or Production):
 
 ```sh
 $ npm run build:dev
+$ npm run build:prod
 ```
 
 ### Technologies
