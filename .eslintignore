@@ -1,6 +1,0 @@
-node_modules
-dist
-src/data
-webpack.config.js
-.eslintrc.js
-tsconfig.json
