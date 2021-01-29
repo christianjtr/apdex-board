@@ -1,13 +1,17 @@
 # Apdex Board - Code challenge
 
-We want to build a new page view that shows the list of applications running on every host.
-
-You are asked to build a new feature to display the most satisfying applications deployed on each host.
+We want to build a new page view that shows the list of applications running on every host. You are asked to build a new feature to display the most satisfying applications deployed on each host.
 
 ### Key restrictions
 
 - Do not use frameworks / libraries such as React, Angular, etc.
 - Browser support: IE11+, latest 2 versions of Chrome, Firefox, Safari, Opera.
+
+### Demo
+
+Click on the following link (Github page project):
+
+https://christianjtr.github.io/apdex-board-code-challenge
 
 ### Installation and running the project
 
@@ -42,6 +46,7 @@ To build the project run this command (Development or Production):
 $ npm run build:dev
 $ npm run build:prod
 ```
+
 ### Comments
 
 First off, It is just a test, so I tried to implement a kind of pseudo-solution by using web components.
