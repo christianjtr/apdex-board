@@ -1,0 +1,91 @@
+.app__container {
+  padding: 30px;
+}
+
+.app__container .app__top-bar {
+  margin: 0 0 30px 0;
+  display: flex;
+  flex-flow: row;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.app__container .app__top-bar .title,
+.app__container .app__top-bar .subtitle,
+.app__container .app__top-bar .toggle-ctrl-wrapper {
+  min-width: 0;
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.app__container .app__top-bar .title {
+  color: #000000;
+  font-size: 35px;
+  font-family: "HelveticaNeue-Bold", Helvetica, Arial, sans-serif;
+  line-height: 43px;
+}
+
+.app__container .app__top-bar .subtitle {
+  flex: 1;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex-shrink: 0;
+  min-width: 0;
+  display: initial;
+  margin: 0 0 0 5px;
+}
+
+.app__container .app__top-bar .toggle-ctrl-wrapper {
+  margin-left: 30px;
+  font-size: 14px;
+}
+
+.app__container .host__container {
+  display: initial;
+  font-family: initial;
+}
+
+.app__container .host__container--grid-mode {
+  display: grid;
+  grid-template-columns: 375px 375px;
+  grid-template-rows: auto;
+  grid-gap: 30px;
+}
+
+.app__container .host__container--grid-mode article {
+  background-color: white;
+  padding: 30px;
+}
+
+.app__container .host__container--list-mode {
+  display: flex;
+  flex-flow: column;
+}
+
+.app__container .host__container--list-mode article {
+  display: flex;
+  padding: 30px;
+  flex-flow: column;
+}
+
+@media only screen and (max-width: 800px) {
+  .app__container .app__top-bar {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: baseline;
+  }
+
+  .app__container .app__top-bar .toggle-ctrl-wrapper {
+    display: none;
+  }
+
+  .app__container .host__container {
+    display: flex;
+    flex-flow: column;
+  }
+}

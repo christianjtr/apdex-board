@@ -1,0 +1,34 @@
+.app-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.app-list__item:not(:last-child) {
+  margin: 0 0 23px 0;
+}
+
+.app-list__item a {
+  color: #4A4A4A;
+  display: flex;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 19px;
+  text-decoration: none;
+}
+
+.app-list__item a:hover {
+  background-color: rgba(201, 201, 201, 0.3);
+  cursor: pointer;
+}
+
+.app-list__item a>span:first-child {
+  opacity: .62;
+  font-size: 13px;
+  font-family: "HelveticaNeue-Bold", Helvetica, Arial, sans-serif;
+  width: 10%;
+}
+
+.app-list__item a>span:last-child {
+  font-size: 16px;
+  width: 90%;
+}

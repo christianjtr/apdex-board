@@ -1,0 +1,13 @@
+.host-card {
+  background-color: white;
+  font-family: inherit;
+  font-size: initial;
+  color: #000000;
+}
+
+.host-card__title {
+  font-size: 16px;
+  font-family: "HelveticaNeue-Bold", Helvetica, Arial, sans-serif;
+  line-height: 19px;
+  margin: 0 0 23px 0;
+}
