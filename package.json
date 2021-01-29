@@ -10,7 +10,7 @@
     "lint": "eslint . --ext .ts,.js --fix"
   },
   "keywords": [],
-  "homepage": "https://github.com/christianjtr/apdex-board#readme",
+  "homepage": "https://github.com/christianjtr/apdex-board-code-challenge#readme",
   "author": "Christian José Torrealba Rondón",
   "license": "MIT",
   "devDependencies": {
