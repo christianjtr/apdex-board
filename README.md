@@ -1,5 +1,7 @@
 # Apdex Board - Code challenge
 
+It's just another test...
+
 We want to build a new page view that shows the list of applications running on every host. You are asked to build a new feature to display the most satisfying applications deployed on each host.
 
 ### Key restrictions
