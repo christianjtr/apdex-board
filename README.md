@@ -2,6 +2,8 @@
 
 It's just another test...
 
+Apdex Board - Code challenge: Assessment developed in order to deliver a client-side framework-less / library-less solution to display some apps info.
+
 We want to build a new page view that shows the list of applications running on every host. You are asked to build a new feature to display the most satisfying applications deployed on each host.
 
 ### Key restrictions
