@@ -17,7 +17,7 @@ We want to build a new page view that shows the list of applications running on 
 
 Click on the following link (Github page project):
 
-https://christianjtr.github.io/apdex-board-code-challenge
+https://christianjtr.github.io/apdex-board
 
 ### Installation and running the project
 
